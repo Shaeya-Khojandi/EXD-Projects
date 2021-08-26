@@ -1,0 +1,50 @@
+main {
+    width: 100%;
+}
+
+#Google-icon {
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: sans-serif;
+}
+
+#G1,
+#g2 {
+    color: blue;
+}
+
+#o1,
+#e {
+    color: red;
+}
+
+#o2 {
+    color: orange;
+}
+
+#l {
+    color: green;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    direction: rtl;
+}
+
+li {
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.text:hover {
+    text-decoration-line: underline;
+}
+
+/*project 0 : https://cs50.harvard.edu/web/2020/projects/0/*/
+/*flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
