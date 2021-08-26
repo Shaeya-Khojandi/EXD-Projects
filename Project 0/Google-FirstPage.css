@@ -1,29 +1,10 @@
-main {
-    width: 100%;
+* {
+    margin-right: 0;
+    margin-left: 0;
 }
 
-#Google-icon {
+main header {
     text-align: center;
-    font-size: 5.5rem;
-    font-family: sans-serif;
-}
-
-#G1,
-#g2 {
-    color: blue;
-}
-
-#o1,
-#e {
-    color: red;
-}
-
-#o2 {
-    color: orange;
-}
-
-#l {
-    color: green;
 }
 
 a {
@@ -42,9 +23,61 @@ li {
     font-size: 20px;
 }
 
+.text {
+    font-size: 15px;
+}
+
 .text:hover {
     text-decoration-line: underline;
 }
+
+footer {
+    background-color: #eee;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body footer div.RightLinks,
+body footer div.RightLinks a {
+    padding: 8px 15px;
+    float: right;
+}
+
+body footer div a {
+    color: #777;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+body footer div.LeftLinks,
+body footer div.LeftLinks a {
+    padding: 8px 15px;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+button[type='submit'] {
+    background-color: white;
+    margin-right: 0;
+    border-right: none;
+    padding: 10px 5px;
+}
+
+input[type='text'] {
+    margin-left: 0;
+    border-left: none;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+
 
 /*project 0 : https://cs50.harvard.edu/web/2020/projects/0/*/
 /*flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
