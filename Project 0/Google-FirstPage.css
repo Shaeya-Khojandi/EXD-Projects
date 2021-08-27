@@ -58,14 +58,15 @@ body footer div button:hover {
     cursor: pointer;
 }
 
-main form button {
-    background-color: #eee;
+main form span button {
+    background-color: rgb(246, 246, 246);
     border: none;
     border-radius: 4px;
     padding: 10px;
+    text-align: center;
 }
 
-main form button:hover {
+main form span button:hover {
     border: .5px solid #555;
 }
 
@@ -82,12 +83,14 @@ body footer div.LeftLinks button {
 
 input[type='text'] {
     margin-left: 0;
-    border-left: none;
     padding: 10px 5px;
     text-align: center;
+    border-radius: 44px;
 }
 
-
+span {
+    text-align: center;
+}
 
 /*project 0 : https://cs50.harvard.edu/web/2020/projects/0/*/
 /*flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
