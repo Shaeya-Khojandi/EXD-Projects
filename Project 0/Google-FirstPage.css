@@ -40,21 +40,27 @@ footer {
 }
 
 body footer div.RightLinks,
-body footer div.RightLinks a {
+body footer div.RightLinks button {
     padding: 8px 15px;
     float: right;
 }
 
-body footer div a {
+body footer div button {
     color: #777;
     font-family: sans-serif;
     font-size: 14px;
     text-align: center;
+    border: none;
+}
+
+body footer div button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
 }
 
 
 body footer div.LeftLinks,
-body footer div.LeftLinks a {
+body footer div.LeftLinks button {
     padding: 8px 15px;
     float: left;
 }
