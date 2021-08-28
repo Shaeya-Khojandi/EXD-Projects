@@ -1,0 +1,67 @@
+#Logo {
+    margin-top: 109px;
+    width: 100%;
+}
+
+#logo2 {
+    background: url('/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+}
+
+* {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    direction: rtl;
+}
+
+li {
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #eee;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body footer div.RightLinks,
+body footer div.RightLinks button {
+    padding: 8px 15px;
+    float: right;
+}
+
+body footer div button {
+    color: #777;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+body footer div button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+body footer div.LeftLinks,
+body footer div.LeftLinks button {
+    padding: 8px 15px;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
