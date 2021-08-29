@@ -1,24 +1,9 @@
 #logo {
     margin-top: 109px;
     width: 100%;
+    text-align: center;
 }
 
-#logo2 {
-    margin: 0 10px;
-    background: url('/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
-    background-size: 272px 92px;
-    height: 92px;
-    width: 272px;
-}
-
-#image-text {
-    color: #4285f4;
-    font: 16px/16px roboto-regular, arial, sans-serif;
-    position: relative;
-    left: 215px;
-    top: 76px;
-    white-space: nowrap;
-}
 
 * {
     margin-right: 0;
