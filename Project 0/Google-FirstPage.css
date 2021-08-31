@@ -92,5 +92,12 @@ span {
     text-align: center;
 }
 
+.h-icon:hover {
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 10px;
+}
+
 /*project 0 : https://cs50.harvard.edu/web/2020/projects/0/*/
 /*flexbox : https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/

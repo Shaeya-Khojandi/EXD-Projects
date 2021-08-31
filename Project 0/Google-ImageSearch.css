@@ -103,3 +103,10 @@ form[action='https://www.google.com/imghp']:focus {
 form[action='https://www.google.com/imghp'] {
     text-align: center;
 }
+
+.h-icon:hover {
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 10px;
+}
