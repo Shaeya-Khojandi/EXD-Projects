@@ -63,3 +63,43 @@ body footer div.LeftLinks button {
 .clearfix {
     clear: both;
 }
+
+input[type=text] {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    text-align: center;
+    margin-right: -6px;
+}
+
+input[type=text]:focus {
+    border: none;
+}
+
+span.search-box {
+    margin-top: 300px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+}
+
+span.search-box:hover {
+    box-shadow: 3px 3px 5px #777;
+    box-shadow: -.5px -.5px 5px #777;
+}
+
+button[type=submit] {
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    margin-left: 0;
+}
+
+form[action='https://www.google.com/imghp']:focus {
+    border: none;
+}
+
+form[action='https://www.google.com/imghp'] {
+    text-align: center;
+}
