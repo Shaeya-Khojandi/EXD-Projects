@@ -96,6 +96,10 @@ button[type=submit] {
     margin-left: 0;
 }
 
+button[type=submit]:hover {
+    cursor: pointer;
+}
+
 form[action='https://www.google.com/imghp']:focus {
     border: none;
 }
@@ -109,4 +113,9 @@ form[action='https://www.google.com/imghp'] {
     border-radius: 20px;
     background-color: #eee;
     padding: 10px;
+}
+
+img {
+    width: 272px;
+    height: 92px;
 }
