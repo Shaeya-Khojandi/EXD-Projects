@@ -1,14 +1,7 @@
 #logo {
     margin-top: 109px;
     width: 100%;
-}
-
-#logo2 {
-    margin: 0 10px;
-    background: url('/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
-    background-size: 272px 92px;
-    height: 92px;
-    width: 272px;
+    text-align: center;
 }
 
 #image-text {
@@ -24,7 +17,6 @@
     margin-right: 0;
     margin-left: 0;
 }
-
 
 a {
     color: black;
@@ -77,4 +69,17 @@ body footer div.LeftLinks button {
 
 .clearfix {
     clear: both;
+}
+
+input[name=q] {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+form[method=get] {
+    text-align: center;
+}
+
+button[type=submit] {
+    display: none;
 }

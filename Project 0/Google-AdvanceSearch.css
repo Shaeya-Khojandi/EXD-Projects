@@ -1,0 +1,100 @@
+img {
+    height: 24px;
+    width: 74px;
+    margin-top: 0;
+}
+
+a>img {
+    float: left;
+    margin: 0 20px;
+}
+
+* {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    direction: rtl;
+}
+
+li {
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.h-icon:hover {
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+body footer div button {
+    color: #777;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+footer {
+    background-color: #eee;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body footer div button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+body footer div.LeftLinks,
+body footer div.LeftLinks button {
+    padding: 8px 15px;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+main {
+    margin: 20px 50px;
+    font-family: sans-serif;
+}
+
+#redvance {
+    color: red;
+    font-family: sans-serif;
+    margin: 30px 45px;
+}
+
+#titles {
+    float: left;
+}
+
+#form {
+    float: left;
+}
+
+#preamble {
+    float: right;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+input[type=text] {
+    padding: 1px 2px;
+    margin: 6px;
+    width: 100%;
+    text-align: left;
+}
