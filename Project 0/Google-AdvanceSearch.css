@@ -1,0 +1,25 @@
+a.google {
+    text-decoration-line: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+a.google:checked {
+    color: black;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+#AS {
+    color: red;
+}
+
+#Fpw {
+    margin: 45px 0;
+}
+
+main {
+    margin: 35px 35px;
+}
